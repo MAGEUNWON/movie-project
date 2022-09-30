@@ -81,49 +81,49 @@ $col-4 :#FFFCFC;
     @include flexSet(center,center,row);
 
     &>div:nth-child(1){
-      @include size(35vw,80vh);
-      @include flexSet(space-around,center,row);
+      @include size(45vw,80vh);
+      @include flexSet(center,center,row);
       flex-wrap: wrap;
 
       &>div:nth-child(1){
-        @include size(17vw,25vh);
+        @include size(20vw,25vh);
         background-image: url(./movie1.png);
-        background-size: 100%;
+        background-size: cover;
         background-repeat: no-repeat;
       }
 
       &>div:nth-child(2){
-        @include size(17vw,25vh);
+        @include size(20vw,25vh);
         background-image: url(./movie2.png);
-        background-size: 100%;
+        background-size: cover;
         background-repeat: no-repeat;
       }
 
       &>div:nth-child(3){
-        @include size(17vw,25vh);
+        @include size(20vw,25vh);
         background-image: url(./movie3.png);
-        background-size: 100%;
+        background-size: cover;
         background-repeat: no-repeat;
       }
 
       &>div:nth-child(4){
-        @include size(17vw,25vh);
+        @include size(20vw,25vh);
         background-image: url(./movie4.png);
-        background-size: 100%;
+        background-size: cover;
         background-repeat: no-repeat;
       }
 
       &>div:nth-child(5){
-        @include size(17vw,25vh);
+        @include size(20vw,25vh);
         background-image: url(./movie5.png);
-        background-size: 100%;
+        background-size: cover;
         background-repeat: no-repeat;
       }
 
       &>div:nth-child(6){
-        @include size(17vw,25vh);
+        @include size(20vw,25vh);
         background-image: url(./movie6.png);
-        background-size: 100%;
+        background-size: cover;
         background-repeat: no-repeat;
       }
     }

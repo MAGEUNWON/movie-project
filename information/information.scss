@@ -33,7 +33,7 @@ $col-4 :#FFFCFC;
 
       &>div:nth-child(1){
         @include size(100px,100px);
-        background-image: url(../informationAside/fa6-solid_user-gear.png);
+        background-image: url(./fa6-solid_user-gear.png);
         background-size: 100%;
         background-repeat: no-repeat;
       }
@@ -104,7 +104,7 @@ $col-4 :#FFFCFC;
           &>div{
             @include size(150px,150px);
           // @include flexSet(center,center,row);
-            background-image: url(../informationMain/ph_user-circle-fill.png);
+            background-image: url(./ph_user-circle-fill.png);
             background-repeat: no-repeat;
             background-size: 100%;
           }
