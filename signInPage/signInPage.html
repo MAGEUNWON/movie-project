@@ -5,40 +5,47 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="stylesheet" href="./singInPage.css">
 </head>
 <body>
-  <main>
+  <main id = "main">
+    
+    <form action="post" id = "form" onsubmit="return false">
 
-    <div>
-      <input type="name" id ="name" name ="nicName" placeholder="닉네임">
-    </div>
+      <div>
+        <input type="name" id ="name" name ="nicName" placeholder="닉네임">
+      </div>
 
-    <div>
-      <input type="button" id="nicConfirm" name="nicConfirm" placeholder="중복확인">
-    </div>
+      <div>
+        <button>중복확인</button>
+      </div>
 
-    <div>
-      <input type="name" id="email" name="email" placeholder="이메일">
-    </div>
+      <div>
+        <input type="name" id="email" name="email" placeholder="이메일">
+      </div>
 
-    <div>
-      <input type="password" id="password" name="password" placeholder="비밀번호">
-    </div>
+      <div>
+        <input type="password" id="password" name="password" placeholder="비밀번호">
+      </div>
 
-    <div>
-      <input type="password" id="psConfirm" name="psConfirm" placeholder="비밀번호 확인">
-    </div>
+      <div>
+        <input type="password" id="psConfirm" name="psConfirm" placeholder="비밀번호 확인">
+      </div>
 
-    <div>
-      <input type="button" id="signIn" name="signIn" placeholder="가입하기">
-    </div>
+      <div>
+        <button>가입하기</button>
+      </div>
 
-    <hr>
-    <!-- css에 border:dashed 넣으면 절취선 됨 -->
+      <span>OR</span>
+      <!-- css에 border:dashed 넣으면 절취선 됨 -->
 
-    <div>
-      <input type="name" name="googleLogin" name="googleLogin" placeholder="Google Login">
-    </div>
+      <div>
+        <input type="name" name="googleLogin" name="googleLogin" placeholder="Google Login">
+      </div>
+
+    </form>
+
+    
 
   </main>
 </body>
