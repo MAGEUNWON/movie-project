@@ -21,7 +21,7 @@ random.drawer.addEventListener('click', ()=>{
     console.log(isClick);
 
     random.card.style.transformStyle = "preserve-3d";
-    random.card.style.transform = "rotateY(0)";
+    random.card.style.transform = "rotateY(0deg)";
     random.card.style.transition = "1s";
     random.front.style.backfaceVisibility = "visible";
   }
