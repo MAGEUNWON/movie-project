@@ -4,7 +4,11 @@
   box-sizing: border-box;
 }
 
-#main {
+#app {
+  width: 100vw;
+  height: 80vh;
+}
+#app main {
   width: 100vw;
   height: 80vh;
   display: flex;
@@ -13,7 +17,7 @@
   flex-direction: column;
   background-color: #D9D9D9;
 }
-#main > div {
+#app main > div {
   width: 100vw;
   height: 25vh;
   display: flex;
@@ -21,12 +25,12 @@
   align-items: center;
   flex-direction: row;
 }
-#main > div > div {
+#app main > div > div {
   width: 18vw;
   height: 23vh;
   margin: 5px;
   background-color: #FEF8F8;
 }
-#main > div div:hover {
+#app main > div div:hover {
   cursor: pointer;
 }/*# sourceMappingURL=movieList.css.map */
