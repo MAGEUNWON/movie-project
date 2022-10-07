@@ -4,7 +4,11 @@
   box-sizing: border-box;
 }
 
-#main {
+#app {
+  width: 80vw;
+  height: 100vh;
+}
+#app > main {
   width: 80vw;
   height: 100vh;
   display: flex;
@@ -12,7 +16,7 @@
   align-items: center;
   flex-direction: row;
 }
-#main > div:nth-child(1) {
+#app > main > div:nth-child(1) {
   width: 45vw;
   height: 80vh;
   display: flex;
@@ -21,49 +25,49 @@
   flex-direction: row;
   flex-wrap: wrap;
 }
-#main > div:nth-child(1) > div:nth-child(1) {
+#app > main > div:nth-child(1) > div:nth-child(1) {
   width: 20vw;
   height: 25vh;
   background-image: url(./movie1.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
-#main > div:nth-child(1) > div:nth-child(2) {
+#app > main > div:nth-child(1) > div:nth-child(2) {
   width: 20vw;
   height: 25vh;
   background-image: url(./movie2.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
-#main > div:nth-child(1) > div:nth-child(3) {
+#app > main > div:nth-child(1) > div:nth-child(3) {
   width: 20vw;
   height: 25vh;
   background-image: url(./movie3.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
-#main > div:nth-child(1) > div:nth-child(4) {
+#app > main > div:nth-child(1) > div:nth-child(4) {
   width: 20vw;
   height: 25vh;
   background-image: url(./movie4.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
-#main > div:nth-child(1) > div:nth-child(5) {
+#app > main > div:nth-child(1) > div:nth-child(5) {
   width: 20vw;
   height: 25vh;
   background-image: url(./movie5.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
-#main > div:nth-child(1) > div:nth-child(6) {
+#app > main > div:nth-child(1) > div:nth-child(6) {
   width: 20vw;
   height: 25vh;
   background-image: url(./movie6.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
-#main > div:nth-child(2) {
+#app > main > div:nth-child(2) {
   width: 35vw;
   height: 100vh;
   display: flex;
@@ -71,7 +75,7 @@
   align-items: center;
   flex-direction: row;
 }
-#main > div:nth-child(2) > div {
+#app > main > div:nth-child(2) > div {
   width: 400px;
   height: 400px;
   background-image: url(./pentagon.png);
