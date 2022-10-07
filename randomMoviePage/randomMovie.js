@@ -1,3 +1,9 @@
+const app = document.getElementById("app");
+
+
+
+
+
 const random = {
   module:document.getElementById('module'),
   card:document.getElementById('card'),

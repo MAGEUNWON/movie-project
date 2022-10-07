@@ -22,7 +22,7 @@ function tagMaker (parentElement, containerName, itemName, text, itemCount){
   const container = document.createElement(containerName);
   for(let i = 0; i<itemCount; i++){
     let item = document.createElement(itemName);
-    item.textContent =text;
+    item.textContent = text;
     container.appendChild(item);
   }
 
@@ -38,12 +38,3 @@ tagMaker(div2, "div", "p", "내 정보 수정", 1);
 tagMaker(div2, "div", "p", "내가 찜한 영화", 1);
 tagMaker(div2, "div", "p", "내가 쓴 글", 1);
 // -------------------------app > aside > div2 > (div > p) *3--------------------
-
-
-// function elem (parentElement, itemName, itemCount){
-//   const parent = document.querySelector(parentElement);
-//   for(let i = 0; i<itemCount; i++){
-//     let item = document.createElement(itemName);
-//     parent.appendChild(item);
-//   }
-// }
