@@ -18,24 +18,24 @@ $col-1:#F4F59D;
 $col-2:#D9D9D9;
 $col-3:rgb(224, 184, 190);
 
-#module{
+#app{
   @include size(700px,800px);
   @include flexSet(space-evenly,center,column);
   background-color: $col-2;
 
-  &>#drawer{
+  &>div{
     @include size(500px,600px);
     perspective: 800px;
     position: relative;
   
 
-    &>#card{
+    &>div{
       @include size(100%,100%);
       position: absolute;
       
       
 
-      &>#front{
+      &>div:nth-child(1){
         @include size(100%,100%);
         background-image: url(./공조2.jpeg);
         background-size: contain;
@@ -45,7 +45,7 @@ $col-3:rgb(224, 184, 190);
         position: absolute;
       }
 
-      &>#back{
+      &>div:nth-child(2){
         @include size(100%,100%);
         background-color: #D9D9D9;
         backface-visibility: hidden;

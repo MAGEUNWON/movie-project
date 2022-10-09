@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 
-#module {
+#app {
   width: 700px;
   height: 800px;
   display: flex;
@@ -14,18 +14,18 @@
   flex-direction: column;
   background-color: #D9D9D9;
 }
-#module > #drawer {
+#app > div {
   width: 500px;
   height: 600px;
   perspective: 800px;
   position: relative;
 }
-#module > #drawer > #card {
+#app > div > div {
   width: 100%;
   height: 100%;
   position: absolute;
 }
-#module > #drawer > #card > #front {
+#app > div > div > div:nth-child(1) {
   width: 100%;
   height: 100%;
   background-image: url(./공조2.jpeg);
@@ -36,7 +36,7 @@
   transform: rotateY(0deg);
   position: absolute;
 }
-#module > #drawer > #card > #back {
+#app > div > div > div:nth-child(2) {
   width: 100%;
   height: 100%;
   background-color: #D9D9D9;
@@ -49,7 +49,7 @@
   align-items: center;
   flex-direction: row;
 }
-#module > #drawer > #card > #back > div {
+#app > div > div > div:nth-child(2) > div {
   width: 100%;
   height: 100%;
   display: flex;
@@ -58,15 +58,15 @@
   flex-direction: column;
   background-color: rgb(224, 184, 190);
 }
-#module > #drawer > #card > #back > div > div > span {
+#app > div > div > div:nth-child(2) > div > div > span {
   font-size: 1.5rem;
   text-align: center;
 }
-#module > span {
+#app > span {
   font-size: 2rem;
   font-weight: bold;
 }
-#module > button {
+#app > button {
   width: 150px;
   height: 40px;
   background-color: #F4F59D;
