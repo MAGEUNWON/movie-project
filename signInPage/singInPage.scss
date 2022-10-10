@@ -18,7 +18,7 @@ $col-1:#F8F5F5;
 $col-2: #E1DEDE;
 
 
-#main{
+#app{
   @include size(100vw,100vh);
   @include flexSet(center,center,column);
 
