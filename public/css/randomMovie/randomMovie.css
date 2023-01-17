@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#app {
+  width: 700px;
+  height: 800px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(245, 245, 245);
+}
+#app > div {
+  width: 500px;
+  height: 600px;
+  perspective: 800px;
+  position: relative;
+}
+#app > div > div {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+#app > div > div > div:nth-child(1) {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  transform: rotateY(0deg);
+  position: absolute;
+}
+#app > div > div > div:nth-child(2) {
+  width: 100%;
+  height: 100%;
+  background-color: #D9D9D9;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  position: absolute;
+  transform: rotateY(180deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+#app > div > div > div:nth-child(2) > div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(10, 10, 10);
+}
+#app > div > div > div:nth-child(2) > div > div > span {
+  font-size: 0.9rem;
+  text-align: center;
+  color: rgb(245, 245, 247);
+}
+#app > span {
+  font-size: 2rem;
+  font-weight: bold;
+}
+#app > button {
+  width: 150px;
+  height: 40px;
+  background-color: #F4F59D;
+  border: none;
+  margin-left: 30rem;
+}/*# sourceMappingURL=randomMovie.css.map */
