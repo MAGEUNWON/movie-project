@@ -605,7 +605,7 @@ app.post("/signUp", (req, res) => {
       res.status(500).send("Internal Sever Error");
     }
   });
-  res.redirect("/signInPage");
+  res.redirect("/");
 });
 
 
